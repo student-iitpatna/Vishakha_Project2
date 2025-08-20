@@ -1,45 +1,49 @@
 # Vishakha_Project2
 #HANDWRITTEN DIGIT RECOGNIZER
-OVERVIEW
 
-This project builds a Convolutional Neural Network (CNN) using TensorFlow/Keras to recognize handwritten digits (0–9) from the MNIST dataset. The model learns from thousands of labeled images and predicts digits from new handwritten samples.
+📖 Overview
 
-STEPS
+This project builds a Convolutional Neural Network (CNN) with TensorFlow/Keras to recognize handwritten digits (0–9) from the MNIST dataset.
+It serves as a hands-on example of applying deep learning techniques to solve computer vision problems.
 
-Load the MNIST dataset from TensorFlow/Keras.
+⚙ Requirements
 
-Preprocess images (normalize & reshape).
+Before running the project, install the dependencies:
 
-Build a CNN model with Conv2D, MaxPooling2D, Flatten, Dense layers.
+pip install tensorflow numpy pandas matplotlib seaborn scikit-learn
 
-Compile and train the model.
+🚀 Getting Started
+1️⃣ Clone the Repository
+git clone <repo_link>
+cd handwritten-digit-cnn
 
-Evaluate accuracy and loss on the test set.
+2️⃣ Launch Jupyter Notebook
+jupyter notebook
 
-Predict unseen digits and display results.
+3️⃣ Run the Notebook
 
-📂 Dataset
+Open mnist_digit_cnn.ipynb
 
-Source: MNIST (built into TensorFlow)
+Execute all cells in sequence to:
 
-Image Size: 28×28 grayscale
+Load & preprocess data
 
-Labels: Digits 0–9
+Train CNN model
 
-📊 Results
+Test and evaluate performance
 
-Accuracy: ~98% on test data
+📊 Model Performance
 
-Example:
+Achieved ~98% test accuracy.
 
-Input Image → Predicted Digit: 7
+Successfully recognizes digits 0–9 with high precision.
 
-📦 Requirements
+💡 Use Cases
 
-Python 3.x
+✅ Automated cheque reading
 
-TensorFlow
+✅ Sorting postal codes
 
-NumPy
+✅ Scanning and digitizing forms
 
-Matplotlib (optional for visualization)
+✅ Mobile OCR integration
